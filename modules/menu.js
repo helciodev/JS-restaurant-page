@@ -8,7 +8,7 @@ const dish3 = document.createElement('div');
 const dish4 = document.createElement('div');
 
 addClasses(headingOneMenu, 'text-3xl gray-500 font-bold opacity-100');
-addClasses(menuContainer, 'mx-auto w-1/2 bg-white opacity-90 px-5 py-3 text-center')
+addClasses(menuContainer, 'mx-auto w-1/2 bg-white opacity-90 px-5 py-3 text-center');
 addClasses(dish, 'mt-4 grid grid-cols-2');
 addClasses(dish2, 'mt-4 grid grid-cols-2 mt-2');
 addClasses(dish3, 'mt-4 grid grid-cols-2 mt-2');
