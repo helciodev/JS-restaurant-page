@@ -1,6 +1,6 @@
 import { home } from '../modules/home';
-import { menuContainer } from '../modules/menu';
-import { contactContainer } from '../modules/contact';
+import menuContainer from '../modules/menu';
+import contactContainer from '../modules/contact';
 
 const content = document.getElementById('content');
 

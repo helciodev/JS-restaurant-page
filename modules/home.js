@@ -39,5 +39,5 @@ location.insertAdjacentHTML('beforeend',
   <p>location: Saint Martin street number 2134</p>
 `);
 
-appendChildren(home, headingOne, paragraph, headingTwo, horaryContainer, location)
+appendChildren(home, headingOne, paragraph, headingTwo, horaryContainer, location);
 export { home, appendChildren, addClasses };
