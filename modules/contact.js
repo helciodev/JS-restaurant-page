@@ -6,6 +6,6 @@ const headingOneContact = document.createElement('h1');
 addClasses(headingOneContact, 'text-3xl gray-500 font-bold opacity-100');
 addClasses(contactContainer, 'mx-auto w-1/2 bg-white opacity-90 px-5 py-3 text-center');
 
-headingOneContact.innerText = '222-333-444';
+headingOneContact.textContent = '222-333-444';
 appendChildren(contactContainer, headingOneContact);
-export default { contactContainer };
+export { contactContainer };

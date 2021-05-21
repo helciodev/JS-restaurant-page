@@ -50,6 +50,6 @@ dish4.insertAdjacentHTML('beforeend', `
 headingOneMenu.textContent = "Gary's menu";
 
 appendChildren(menuContainer, headingOneMenu, dish, dish2, dish3, dish4);
-export { menuContainer, dish };
+export { menuContainer };
 
 // Photo by William Choquette from Pexels asian dish

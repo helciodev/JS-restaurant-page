@@ -1,6 +1,6 @@
 import { home } from '../modules/home';
-import { menuContainer, dish } from '../modules/menu';
-import { iamContact } from '../modules/contact';
+import { menuContainer } from '../modules/menu';
+import { contactContainer } from '../modules/contact';
 
 const content = document.getElementById('content');
 
@@ -12,5 +12,19 @@ content.insertAdjacentHTML('beforeend',
           <li><a href="#" id="contact" class="text-gray-100 capitalize text-2xl  hover:text-red-500">contact</a></li>
         </ul>
   </nav>`);
-  console.log(dish);
-  content.appendChild(menuContainer);
+
+content.appendChild(home);
+console.log(content);
+
+window.addEventListener('click', (e) => {
+  if (e.target.id === 'home') {
+    content.removeChild(content.lastChild);
+    content.appendChild(home);
+  } else if (e.target.id === 'menu') {
+    content.removeChild(content.lastChild);
+    content.appendChild(menuContainer)
+  }else if(e.target.id === 'contact'){
+    content.removeChild(content.lastChild);
+    content.appendChild(contactContainer)
+  }
+});
