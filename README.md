@@ -5,7 +5,6 @@
 - [About](#about)
 - [Features](#features)
 - [Live Demo](#live-demo)
-- [Presentation](#presentation)
 - [Built with](#built-with)
 - [Getting started](#getting-started)
   * [Installation instructions](#installation-instructions)
