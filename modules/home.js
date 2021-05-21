@@ -40,3 +40,6 @@ location.insertAdjacentHTML('beforeend',
 `<h2 class="mb-4 font-bold text-2xl">Location:</h2>
 <p>location: Saint Martin street number 2134</p>
 `)
+
+appendChildren(home, headingOne, paragraph, headingTwo, horaryContainer, location)
+export {home, appendChildren, addClasses}
