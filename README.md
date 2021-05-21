@@ -40,9 +40,9 @@ This project is hosted on heroku.
 
 ## Built With
 
-- Ruby v2.7.2
-- Rails v6.1.3.1
-- postgresql v12.6
+- [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
+- [![forthebadge](https://forthebadge.com/images/badges/uses-html.svg)](https://forthebadge.com)
+- [![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)
 
 ## Getting Started
 
