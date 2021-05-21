@@ -12,6 +12,5 @@ content.insertAdjacentHTML('beforeend',
         <li><a href="#" id="contact" class="text-gray-100 capitalize text-2xl  hover:text-red-500">contact</a></li>
       </ul>
     </nav>`);
-   console.log(dish)
-   console.log('hello, world')
-    content.appendChild(menuContainer) ;
+
+    content.appendChild(home) ;
