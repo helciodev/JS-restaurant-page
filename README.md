@@ -26,7 +26,7 @@ Restaurant page with the pages build entirely with JavaScript and Webpack for mo
 
 The features of this project are, user can:
 
-1. page change dinamicaly
+1. page change dynamically
 2. Javascript modules.
 
 
