@@ -14,7 +14,6 @@ content.insertAdjacentHTML('beforeend',
   </nav>`);
 
 content.appendChild(home);
-console.log(content);
 
 window.addEventListener('click', (e) => {
   if (e.target.id === 'home') {
@@ -22,9 +21,9 @@ window.addEventListener('click', (e) => {
     content.appendChild(home);
   } else if (e.target.id === 'menu') {
     content.removeChild(content.lastChild);
-    content.appendChild(menuContainer)
-  }else if(e.target.id === 'contact'){
+    content.appendChild(menuContainer);
+  } else if (e.target.id === 'contact') {
     content.removeChild(content.lastChild);
-    content.appendChild(contactContainer)
+    content.appendChild(contactContainer);
   }
 });
