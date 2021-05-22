@@ -1,6 +1,6 @@
 import { home } from '../modules/home';
-import menuContainer from '../modules/menu';
-import contactContainer from '../modules/contact';
+import menu from '../modules/menu';
+import contact from '../modules/contact';
 
 const content = document.getElementById('content');
 
@@ -13,17 +13,17 @@ content.insertAdjacentHTML('beforeend',
         </ul>
   </nav>`);
 
-content.appendChild(home);
+content.appendChild(home());
 
 window.addEventListener('click', (e) => {
   if (e.target.id === 'home') {
     content.removeChild(content.lastChild);
-    content.appendChild(home);
+    content.appendChild(home());
   } else if (e.target.id === 'menu') {
     content.removeChild(content.lastChild);
-    content.appendChild(menuContainer);
+    content.appendChild(menu());
   } else if (e.target.id === 'contact') {
     content.removeChild(content.lastChild);
-    content.appendChild(contactContainer);
+    content.appendChild(contact());
   }
 });

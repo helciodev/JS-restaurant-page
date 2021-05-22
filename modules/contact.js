@@ -8,4 +8,7 @@ addClasses(contactContainer, 'mx-auto w-1/2 bg-white opacity-90 px-5 py-3 text-c
 
 headingOneContact.textContent = '222-333-444';
 appendChildren(contactContainer, headingOneContact);
-export default contactContainer;
+
+const contact = () => contactContainer;
+
+export default contact;

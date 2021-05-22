@@ -1,16 +1,12 @@
-// function addClasses(elem, classes) {
-//   classes.split(' ').forEach((clas) => elem.classList.add(clas));
-// }
-
 const addClasses = (elem, classes) => {
   classes.split(' ').forEach((clas) => elem.classList.add(clas));
 };
 
-function appendChildren(node, ...children) {
+const appendChildren = (node, ...children) => {
   children.forEach((child) => node.appendChild(child));
-}
+};
 
-const home = document.createElement('div');
+const homePage = document.createElement('div');
 const headingOne = document.createElement('h1');
 const paragraph = document.createElement('p');
 const headingTwo = document.createElement('h2');
@@ -20,7 +16,7 @@ const location = document.createElement('div');
 addClasses(paragraph, 'mt-4 text-opacity-100');
 addClasses(headingOne, 'text-3xl gray-500 font-bold opacity-100');
 addClasses(headingTwo, 'text-2xl mt-4 font-bold');
-addClasses(home, 'mx-auto w-1/2 bg-white opacity-80 px-5 py-3 text-center');
+addClasses(homePage, 'mx-auto w-1/2 bg-white opacity-80 px-5 py-3 text-center');
 addClasses(horaryContainer, 'mt-4 flex justify-center');
 location.classList.add('mt-4');
 
@@ -43,5 +39,7 @@ location.insertAdjacentHTML('beforeend',
   <p>location: Saint Martin street number 2134</p>
 `);
 
-appendChildren(home, headingOne, paragraph, headingTwo, horaryContainer, location);
+appendChildren(homePage, headingOne, paragraph, headingTwo, horaryContainer, location);
+const home = () => homePage;
+
 export { home, appendChildren, addClasses };
