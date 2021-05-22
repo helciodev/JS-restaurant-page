@@ -32,7 +32,7 @@ The features of this project are, user can:
 
 ## Live Demo
 
-This project is hosted on heroku.
+This project is hosted on github pages.
 
 [Live demo link](https://helciodev.me/JS-restaurant-page/)
 
