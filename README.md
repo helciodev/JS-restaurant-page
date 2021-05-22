@@ -55,14 +55,15 @@ Follow along the steps below to get a copy at your local machine.
     ```
     git clone git@github.com:helciodev/JS-restaurant-page.git
     ```
-- Install the npm package with `npm install`
-- Start the server with `npm run start`
-- The site should automatically open in your browser at http://localhost:8080/ if it didn't then open your browser with that link.
 - Navigate to the `JS-restaurant-page` directory
 
     ```
     cd JS-restaurant-page
     ```
+- Install the npm package with `npm install`
+- Start the server with `npm run start`
+- The site should automatically open in your browser at http://localhost:8080/ if it didn't then open your browser with that link.
+
 
 
 ## Author

@@ -1,6 +1,10 @@
-function addClasses(elem, classes) {
+// function addClasses(elem, classes) {
+//   classes.split(' ').forEach((clas) => elem.classList.add(clas));
+// }
+
+const addClasses = (elem, classes) => {
   classes.split(' ').forEach((clas) => elem.classList.add(clas));
-}
+};
 
 function appendChildren(node, ...children) {
   children.forEach((child) => node.appendChild(child));
